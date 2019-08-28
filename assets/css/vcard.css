@@ -1,0 +1,108 @@
+body {
+  margin: 50px auto;
+  width: 50%;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px; }
+
+.vcard {
+  border-top: 2px grey solid;
+  border-left: 2px grey solid;
+  border-right: 2px black solid;
+  border-bottom: 2px black solid; }
+
+.header {
+  line-height: 1.2rem;
+  height: 1.2rem;
+  background: #373B44;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4286f4, #373B44);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+span {
+  float: right; }
+
+span button {
+  font-size: 0.6rem; }
+
+h1 {
+  display: inline;
+  color: white;
+  font-size: 0.8rem;
+  margin: 0 4px; }
+
+.container-tabs {
+  background: #C0C0C0; }
+
+.bottom-button {
+  position: relative;
+  top: 0px;
+  left: 25px; }
+
+.bottom-button button {
+  margin-bottom: 20px;
+  left: 90%;
+  line-height: 1.5rem;
+  margin-right: 0.3rem; }
+
+/*  */
+.tabs {
+  position: relative;
+  min-height: 200px;
+  /* This part sucks */
+  clear: both;
+  margin: 25px 25px;
+  height: 65vh; }
+
+.tab {
+  float: left; }
+
+.tab label {
+  background: #eee;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-left: -1px;
+  position: relative;
+  left: 1px; }
+
+.tab [type=radio] {
+  display: none; }
+
+.content {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  background: white;
+  right: 0;
+  bottom: 0;
+  padding: 0 20px;
+  border: 1px solid #ccc;
+  margin-top: -5px; }
+
+[type=radio]:checked ~ label {
+  background: white;
+  border-bottom: 1px solid white;
+  z-index: 2; }
+
+[type=radio]:checked ~ label ~ .content {
+  z-index: 1; }
+
+/* GRID */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr; }
+
+textarea {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px; }
+
+img {
+  max-width: 100px;
+  position: relative;
+  float: right;
+  padding: 3px;
+  border: 1px #ccc solid; }
