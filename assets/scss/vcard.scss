@@ -6,11 +6,12 @@ body{
   
 }
 .vcard{
-  border-top: 2px grey solid;
-  border-left: 2px grey solid;
-  border-right: 2px black solid;
-  border-bottom: 2px black solid;
-  
+  border: {
+    top: 2px grey solid;
+    left: 2px grey solid;
+    right: 2px black solid;
+    bottom: 2px black solid;
+}
 }
 .header{
   line-height: 1.2rem;
@@ -98,9 +99,7 @@ h1{
 }
 textarea{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
+  margin: 20px auto 0 auto;
 }
 img{
   max-width: 100px;

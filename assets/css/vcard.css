@@ -96,9 +96,7 @@ h1 {
 
 textarea {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px; }
+  margin: 20px auto 0 auto; }
 
 img {
   max-width: 100px;
