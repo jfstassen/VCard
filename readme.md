@@ -2,4 +2,4 @@
 > One of the first little exercices I had at Becode.
 
 ![Image](https://i.imgur.com/n1KE3zx.png)
-[Deployed on netlify]()
+[Deployed on netlify](https://boring-brattain-346c55.netlify.com/)
